@@ -2,9 +2,9 @@ package entities;
 
 public class Account {
 
-    public Integer number;
-    public String holder;
-    public Double balance;
+    private Integer number;
+    private String holder;
+    protected Double balance;
 
     public Account(Integer number, String holder, Double balance) {
         this.number = number;
